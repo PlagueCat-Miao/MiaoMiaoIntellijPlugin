@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>miaomiao.plugin.demo</id>
+  <name>miaomiaoTest</name>
+  <version>1.0</version>
+  <vendor email="ace0413@126.com" url="https://github.com/PlagueCat-Miao">瘟神喵喵</vendor>
+
+  <description><![CDATA[ 喵喵插件，喵喵尝试尝试abcdeffnsdlfnlsdnfksdfnlasndlasdlkasd
+
+    ]]></description>
+
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <group id="perbank" text = "喵喵">
+      <add-to-group group-id="MainMenu" anchor="last"/>
+      <action id="MiaoMiao.ShowVersion" class="app.common.ShowVersion" text="版本说明" description="喵喵版本是什么？好吃么？"/>
+    </group>
+  </actions>
+
+</idea-plugin>
