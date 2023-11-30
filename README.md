@@ -1,9 +1,12 @@
 # MiaoMiaoIntellijPlugin
 喵喵学习开发idea插件喵~
 
-``` Mermaid
-flowchart LR
-A[矩形框] --> B(小圆角框) --> C{判断框} --> D([大圆角框]) --> E[[双线框]]--> F[(圆柱框)] --> G((圆框))
- 
-```
+ git过期处理
+   
+   setting -> Developer settings -> Personal access tokens (classic) -> tokens
+   
+   ```
+    git remote remove origin
+    git remote add origin https://<your_token>@github.com/PlagueCat-Miao/MiaoMiaoIntellijPlugin.git
+   ```
 
