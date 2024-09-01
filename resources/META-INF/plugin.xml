@@ -18,11 +18,22 @@
   <depends>com.intellij.modules.lang</depends>
   -->
 
+
+
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
+
   </extensions>
 
+  <application-components>
+
+    <component>
+      <implementation-class>app.common.MyFileComponent</implementation-class>
+    </component>
+  </application-components>
+
+
   <actions>
+
     <group id="perbank" text = "喵喵">
       <add-to-group group-id="MainMenu" anchor="last"/>
       <action id="MiaoMiao.ShowVersion" class="app.common.ShowVersion" text="版本说明" description="喵喵版本是什么？好吃么？"/>
