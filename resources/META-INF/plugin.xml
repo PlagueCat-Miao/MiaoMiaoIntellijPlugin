@@ -21,15 +21,13 @@
 
 
   <extensions defaultExtensionNs="com.intellij">
-<<<<<<< HEAD
-=======
+
     <!-- Add your extensions here -->
 <!--    <localInspection-->
 <!--      language="JAVA"-->
 <!--      displayName="提示"-->
 <!--      enabledByDefault="true"-->
 <!--      implementationClass="app.autoCheck.autoCheck"/>-->
->>>>>>> e196dc005815092e252a51443472c37174225dfd
 
   </extensions>
 
