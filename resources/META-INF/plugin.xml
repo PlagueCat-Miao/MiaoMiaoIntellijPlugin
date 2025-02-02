@@ -33,7 +33,7 @@
       <add-to-group group-id="MainMenu" anchor="last"/>
       <action id="MiaoMiao.ShowVersion" class="app.common.ShowVersion" text="版本说明" description="喵喵版本是什么？好吃么？"/>
       <action id="common.TestParse" class="app.TestParse.TestParse" text="测试解析器" description="测试解析器"/>
-      <action id="common.picShow" class="app.picgogo.picShow" text="测试显示器" description="测试显示器"/>
+      <action id="common.picShow" class="app.pumlpicdata.picShow" text="测试显示器" description="测试显示器"/>
 
     </group>
 
