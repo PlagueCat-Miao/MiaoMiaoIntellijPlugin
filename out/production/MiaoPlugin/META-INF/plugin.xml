@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>miaomiao.plugin.demo</id>
   <name>miaomiaoTest</name>
-  <version>1.0.0.1</version>
+  <version>1.0</version>
   <vendor email="ace0413@126.com" url="https://github.com/PlagueCat-Miao">瘟神喵喵</vendor>
 
   <description><![CDATA[ 喵喵插件，喵喵尝试尝试abcdeffnsdlfnlsdnfksdfnlasndlasdlkasd
@@ -18,25 +18,26 @@
   <depends>com.intellij.modules.lang</depends>
   -->
 
+
+
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-<!--    <localInspection-->
-<!--      language="JAVA"-->
-<!--      displayName="提示"-->
-<!--      enabledByDefault="true"-->
-<!--      implementationClass="app.autoCheck.autoCheck"/>-->
 
   </extensions>
 
+  <application-components>
+
+    <component>
+      <implementation-class>app.common.MyFileComponent</implementation-class>
+    </component>
+  </application-components>
+
+
   <actions>
+
     <group id="perbank" text = "喵喵">
       <add-to-group group-id="MainMenu" anchor="last"/>
       <action id="MiaoMiao.ShowVersion" class="app.common.ShowVersion" text="版本说明" description="喵喵版本是什么？好吃么？"/>
-      <action id="common.TestParse" class="app.TestParse.TestParse" text="测试解析器" description="测试解析器"/>
-      <action id="common.picShow" class="app.picgogo.picShow" text="测试显示器" description="测试显示器"/>
-
     </group>
-
   </actions>
 
 </idea-plugin>
